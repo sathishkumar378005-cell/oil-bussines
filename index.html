@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latha Oils | Pure Cold-Pressed Traditional Oils & Natural Seeds</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <span>🌿 100% Traditional Wood Pressed (Marachekku) </span>
+      <div class="top-bar-links">
+        <span>📞 Support: +91 9514761496</span>
+        <span>🚚 Pan-India Delivery</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#" class="brand-logo">
+        <div class="logo-mark"><img src="Gemini_Generated_Image_3f6wue3f6wue3f6w.png" alt="Latha Oils Logo"></div>
+        <div class="logo-text">
+          <span class="brand-title">LATHA OILS</span>
+          <span class="brand-subtitle">Tradition • Purity • Health</span>
+        </div>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">Heritage</a>
+        <a href="#process">Our Process</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="search-box">
+          <input type="text" id="searchInput" placeholder="Search oils, seeds...">
+          <button id="searchBtn" aria-label="Search">🔍</button>
+        </div>
+        <button class="cart-trigger" id="cartToggleBtn" aria-label="Open Shopping Cart">
+          <span class="cart-icon">🛒</span>
+          <span class="cart-count" id="cartBadge">0</span>
+          <span class="cart-label">Cart</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <span class="badge-pill">✨ Handcrafted Purity from Farm to Kitchen</span>
+        <h1>Purest Wood Pressed Oils & Farm-Fresh Seeds</h1>
+        <p>
+          Inspired by centuries of South Indian oil-pressing heritage. Cold-pressed at low temperatures using traditional Marachekku (wood expellers) to retain 100% natural aroma, vitamins, and antioxidants.
+        </p>
+        <div class="hero-cta-group">
+          <a href="#products" class="btn btn-primary">Shop Our Range</a>
+          <a href="#process" class="btn btn-secondary">See Extraction Process</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <strong>100%</strong>
+            <span>Pure & Unrefined</span>
+          </div>
+          <div class="stat-item">
+            <strong>0%</strong>
+            <span>Chemicals & Preservatives</span>
+          </div>
+          <div class="stat-item">
+            <strong>Wood</strong>
+            <span>Cold-Pressed Technique</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card-featured">
+          <img src="assets/groundnut_oil.jpg" alt="Latha Pure Traditional Wood-Pressed Oils">
+          <div class="floating-badge">
+            <span class="icon">🌿</span>
+            <div>
+              <strong>Lab Certified</strong>
+              <p>FSSAI Verified Purity</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quality Badges / Highlights -->
+  <section class="trust-banner">
+    <div class="container trust-grid">
+      <div class="trust-card">
+        <span class="trust-icon">🌱</span>
+        <h4>Farm-Sourced Raw Seeds</h4>
+        <p>Premium groundnuts and sesame handpicked from certified local farmers.</p>
+      </div>
+      <div class="trust-card">
+        <span class="trust-icon">🪵</span>
+        <h4>True Marachekku (Wood)</h4>
+        <p>Cold-pressed without heating above 40°C to lock in wholesome goodness.</p>
+      </div>
+      <div class="trust-card">
+        <span class="trust-icon">🧪</span>
+        <h4>Unbleached & Unrefined</h4>
+        <p>No liquid paraffin, no artificial colors, zero trans-fats or argemone.</p>
+      </div>
+      <div class="trust-card">
+        <span class="trust-icon">📦</span>
+        <h4>Hygienic Leak-Proof Pack</h4>
+        <p>Food-grade containers sealed fresh to deliver authentic kitchen aroma.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="products-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge-pill">Our Collection</span>
+        <h2>Explore Latha Oils & Farm Produce</h2>
+        <p>Premium cooking oils, wellness formulations, sacred deepam oil, and farm-fresh seeds.</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="filter-bar">
+        <button class="filter-btn active" data-category="all">✨ All Products</button>
+        <button class="filter-btn" data-category="cooking">🍳 Cooking Oils</button>
+        <button class="filter-btn" data-category="wellness">🪔 Pooja & Wellness</button>
+        <button class="filter-btn" data-category="seeds">🌱 Farm Seeds</button>
+      </div>
+
+      <!-- Product Grid -->
+      <div class="product-grid" id="productGrid">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Heritage & Process Section -->
+  <section id="process" class="process-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge-pill">The Latha Oils Standard</span>
+        <h2>How We Extract Purity</h2>
+        <p>Retaining the golden tradition of South Indian cold-pressed goodness.</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">01</div>
+          <h3>Selection of Seeds</h3>
+          <p>We handpick sun-dried groundnuts, copra coconuts, and clean sesame seeds directly from trusted local farmers.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number">02</div>
+          <h3>Traditional Wood Press</h3>
+          <p>Crushed slowly in authentic Vaagai tree wood expellers without generating heat, preserving nutrients and aroma.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number">03</div>
+          <h3>Natural Sun Sedimentation</h3>
+          <p>No chemical bleaching. Oils are settled naturally under sunlight and double filtered through organic cotton cloth.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number">04</div>
+          <h3>Hygienic Bottling</h3>
+          <p>Packed in sterilized, food-grade bottles ready to elevate your family's cooking and spiritual traditions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonial-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge-pill">Trusted by Families</span>
+        <h2>What Our Customers Say</h2>
+      </div>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"The aroma of Latha Gingelly Oil takes me right back to our ancestral village. Idli with this oil and podi is unmatched in flavor!"</p>
+          <div class="author">
+            <strong>— Meenakshi S.</strong>
+            <span>Chennai, Tamil Nadu</span>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"We use Latha Deepam Oil every single evening for our puja room. The lamp burns so steadily with a mild, divine fragrance."</p>
+          <div class="author">
+            <strong>— Rajeshwaran K.</strong>
+            <span>Coimbatore</span>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Switched to Latha Cold Pressed Groundnut Oil for everyday cooking. Food feels light, crisp, and no sticky residue in cookware."</p>
+          <div class="author">
+            <strong>— Priya Venkatesh</strong>
+            <span>Bengaluru</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <div class="brand-logo footer-logo">
+          <span class="logo-mark">🪔</span>
+          <span class="brand-title">LATHA OILS</span>
+        </div>
+        <p>Premium traditional cold pressed cooking oils, natural wellness extracts, and pure farm seeds delivered to your doorstep.</p>
+        <p class="fssai-tag">🛡️ FSSAI Lic. No: 12423000000000</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Our Products</h4>
+        <ul>
+          <li><a href="#products">Groundnut Oil</a></li>
+          <li><a href="#products">Coconut Oil</a></li>
+          <li><a href="#products">Gingelly (Sesame) Oil</a></li>
+          <li><a href="#products">Castor Oil</a></li>
+          <li><a href="#products">Deepam Pooja Oil</a></li>
+          <li><a href="#products">Neem Oil</a></li>
+          <li><a href="#products">Raw Groundnut</a></li>
+          <li><a href="#products">Sesame Seeds</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quality Promise</h4>
+        <ul>
+          <li>100% Wood-Pressed (Marachekku)</li>
+          <li>No Chemical Solvent Extraction</li>
+          <li>Zero Argemone & Adulteration</li>
+          <li>Eco-friendly Recyclable Bottles</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact & Orders</h4>
+        <p> <strong>Latha Oils Mill & Store</strong><br>NO: 12,13 maruthi complex ,subramaniar street,thillai nagar,villianur,<puducherry-605110></puducherry-605110></p>
+        <p>📞 Phone: +91 9514761496</p>
+        <p>✉️ Email: lathaoilmill@gmail.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>© 2026 Latha Oils Pvt Ltd. All rights reserved. Inspired by purity and tradition.</p>
+    </div>
+  </footer>
+
+  <!-- Slide-out Cart Drawer -->
+  <div class="cart-backdrop" id="cartBackdrop"></div>
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <div class="cart-header-title">
+        <h3>Your Shopping Cart</h3>
+        <span id="cartItemCountText">(0 items)</span>
+      </div>
+      <button class="cart-close-btn" id="closeCartBtn" aria-label="Close Cart">✕</button>
+    </div>
+
+    <!-- Free Delivery Progress Meter -->
+    <div class="shipping-meter-bar" id="shippingMeterBar">
+      <span id="shippingMeterText">🌿 Add ₹999 more for FREE Pan-India delivery</span>
+      <div class="meter-track">
+        <div class="meter-fill" id="meterFill" style="width: 0%"></div>
+      </div>
+    </div>
+
+    <div class="cart-body" id="cartItemsContainer">
+      <!-- Injected via JavaScript -->
+    </div>
+
+    <div class="cart-footer" id="cartFooter">
+      <div class="cart-summary-row">
+        <span>Subtotal</span>
+        <strong id="cartSubtotal">₹0</strong>
+      </div>
+      <div class="cart-summary-row shipping-row">
+        <span>Delivery Fee</span>
+        <span id="shippingFeeText" class="text-green">FREE (Orders > ₹999)</span>
+      </div>
+      <div class="cart-summary-row total-row">
+        <span>Grand Total</span>
+        <strong id="cartGrandTotal">₹0</strong>
+      </div>
+      <button class="btn btn-primary btn-block" id="proceedCheckoutBtn">
+        <span>🔒 Proceed to Secure Checkout</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Product Detail Modal -->
+  <div class="modal-backdrop" id="detailModalBackdrop">
+    <div class="modal-card" id="detailModalCard">
+      <button class="modal-close-btn" id="closeDetailModalBtn">✕</button>
+      <div class="modal-body" id="detailModalBody">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Checkout Modal -->
+  <div class="modal-backdrop" id="checkoutModalBackdrop">
+    <div class="modal-card checkout-modal-card">
+      <button class="modal-close-btn" id="closeCheckoutModalBtn">✕</button>
+      <div class="checkout-header">
+        <h3>Complete Your Order</h3>
+        <p>Enter delivery details to finalize your order with Latha Oils.</p>
+      </div>
+      <form id="checkoutForm" class="checkout-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="custName">Full Name *</label>
+            <input type="text" id="custName" required placeholder="e.g. Ramesh Kumar">
+          </div>
+          <div class="form-group">
+            <label for="custPhone">Phone Number *</label>
+            <input type="tel" id="custPhone" required placeholder="e.g. 9876543210">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="custEmail">Email Address</label>
+          <input type="email" id="custEmail" placeholder="e.g. ramesh@example.com">
+        </div>
+        <div class="form-group">
+          <label for="custAddress">Delivery Address *</label>
+          <textarea id="custAddress" rows="2" required placeholder="Flat/Door No, Street, Locality"></textarea>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="custCity">City / Town *</label>
+            <input type="text" id="custCity" required placeholder="e.g. Chennai">
+          </div>
+          <div class="form-group">
+            <label for="custPincode">Pincode *</label>
+            <input type="text" id="custPincode" required placeholder="e.g. 600001">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Payment Method</label>
+          <div class="payment-options">
+            <label class="payment-card">
+              <input type="radio" name="paymentMethod" value="UPI / Online" checked>
+              <span>📱 UPI / Cards / Net Banking</span>
+            </label>
+            <label class="payment-card">
+              <input type="radio" name="paymentMethod" value="Cash on Delivery">
+              <span>💵 Cash on Delivery (COD)</span>
+            </label>
+          </div>
+        </div>
+        <div class="order-final-summary">
+          <span>Amount to Pay:</span>
+          <strong id="checkoutPayAmount">₹0</strong>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Place Order Now</button>
+        <div style="display: flex; justify-content: center; gap: 16px; margin-top: 8px; font-size: 0.78rem; color: var(--text-muted);">
+          <span>🔒 256-bit SSL Secure</span>
+          <span>🌿 100% Quality Guaranteed</span>
+          <span>⚡ Fast Dispatch</span>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Notification Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
