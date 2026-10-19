@@ -19,7 +19,7 @@ let PRODUCTS = [
     name: "Pure Wood Pressed Groundnut Oil",
     category: "cooking",
     tag: "Marachekku Special",
-    image: "assets/groundnut_oil.jpg",
+    image: "https://i.pinimg.com/736x/13/92/47/1392470a1e7a349de2635944f78272e2.jpg",
     description: "Extracted using traditional Vaagai wood cold press from selected Saurashtra & Tamil Nadu groundnuts. High smoke point and authentic nutty aroma.",
     benefits: [
       "Rich in natural Vitamin E and heart-healthy MUFA",
@@ -28,9 +28,9 @@ let PRODUCTS = [
       "Ideal for deep frying, sautéing, and daily family cooking"
     ],
     variants: [
-      { size: "500 ml", price: 175, originalPrice: 195 },
-      { size: "1 Litre", price: 340, originalPrice: 380, isDefault: true },
-      { size: "5 Litres (Tin)", price: 1650, originalPrice: 1850 }
+      { size: "500 ml", price: 130,originalPrice: 150 },
+      { size: "1 Litre", price: 260, originalPrice: 300, isDefault: true },
+      { size: "5 Litres (Tin)", price: 1200, originalPrice: 1500 }
     ]
   },
   {
@@ -38,7 +38,7 @@ let PRODUCTS = [
     name: "Pure Cold Pressed Coconut Oil",
     category: "cooking",
     tag: "100% Virgin Copra",
-    image: "assets/coconut_oil.jpg",
+    image: "https://i.pinimg.com/736x/6a/10/9f/6a109fc8f2f3c1371a55126d6d1f98aa.jpg",
     description: "Prepared from premium sulphur-free sun-dried copras of Pollachi. Unrefined, crystal-clear, with sweet natural coconut aroma.",
     benefits: [
       "High concentration of Lauric acid for immunity",
@@ -47,9 +47,9 @@ let PRODUCTS = [
       "Zero artificial fragrance or bleaching chemicals"
     ],
     variants: [
-      { size: "500 ml", price: 190, originalPrice: 220 },
-      { size: "1 Litre", price: 370, originalPrice: 420, isDefault: true },
-      { size: "5 Litres (Can)", price: 1800, originalPrice: 2000 }
+      { size: "500 ml", price: 220, originalPrice: 250 },
+      { size: "1 Litre", price: 440, originalPrice: 500, isDefault: true },
+      { size: "5 Litres (Can)", price: 2200, originalPrice: 2500 }
     ]
   },
   {
@@ -57,7 +57,7 @@ let PRODUCTS = [
     name: "Authentic Gingelly (Sesame) Oil",
     category: "cooking",
     tag: "Chekku Nallennai",
-    image: "assets/gingelly_oil.jpg",
+    image: "https://i.pinimg.com/736x/90/14/4e/90144e05a8ca07effd31284882fe42be.jpg",
     description: "Cold-pressed with traditional palm jaggery (karupatti) to tame natural bitterness. Deep golden color, earthy aroma, and authentic South Indian taste.",
     benefits: [
       "Traditional remedy for body heat regulation (Oil bath)",
@@ -66,9 +66,9 @@ let PRODUCTS = [
       "Aids in natural blood pressure regulation"
     ],
     variants: [
-      { size: "500 ml", price: 210, originalPrice: 245 },
-      { size: "1 Litre", price: 410, originalPrice: 470, isDefault: true },
-      { size: "5 Litres (Tin)", price: 1980, originalPrice: 2250 }
+      { size: "500 ml", price: 215, originalPrice: 245 },
+      { size: "1 Litre", price: 430, originalPrice: 470, isDefault: true },
+      { size: "5 Litres (Tin)", price: 2150, originalPrice: 2250 }
     ]
   },
   {
@@ -76,7 +76,7 @@ let PRODUCTS = [
     name: "Cold-Pressed Castor Oil",
     category: "wellness",
     tag: "Hair & Skin Care",
-    image: "assets/castor_oil.jpg",
+    image: "https://i.pinimg.com/736x/56/d4/10/56d4102a3a667b8c691e541775f4f561.jpg",
     description: "Pure, thick, unrefined castor oil (Vilakkennai) extracted from selected ricinus seeds. Renowned for deep scalp moisturization and natural digestive balance.",
     benefits: [
       "Stimulates hair follicle growth and prevents split ends",
@@ -85,9 +85,9 @@ let PRODUCTS = [
       "100% Hexane-free and unbleached"
     ],
     variants: [
-      { size: "200 ml", price: 110, originalPrice: 130 },
-      { size: "500 ml", price: 240, originalPrice: 275, isDefault: true },
-      { size: "1 Litre", price: 460, originalPrice: 520 }
+      { size: "200 ml", price: 60, originalPrice: 100 },
+      { size: "500 ml", price: 110, originalPrice: 200, isDefault: true },
+      { size: "1 Litre", price: 220, originalPrice: 400 }
     ]
   },
   {
@@ -95,7 +95,7 @@ let PRODUCTS = [
     name: "Latha Sacred Deepam Pooja Oil",
     category: "wellness",
     tag: "Auspicious Fragrance",
-    image: "assets/deepam_oil.jpg",
+    image: "https://i.pinimg.com/736x/17/26/9e/17269eccd85fc4d797a357db6730e41b.jpg",
     description: "Inspired by temple traditions. A sacred blend of 5 pure oils (Gingelly, Mahua, Castor, Neem, Ghee extract) with mild Sugandh to bring positive spiritual vibrations.",
     benefits: [
       "Burns long and steady with a clean, smokeless golden flame",
@@ -114,7 +114,7 @@ let PRODUCTS = [
     name: "Pure Organic Neem Oil",
     category: "wellness",
     tag: "Herbal & Organic",
-    image: "assets/neem_oil.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQlRIC5UVeJRvc2cT1Z2zPi9m2zMfQVHsr6JVpCx2hMA&s=10",
     description: "100% pure cold-pressed oil from wild neem seeds (Azadirachta indica). Naturally high in Azadirachtin, perfect for therapeutic skin relief and organic garden pest care.",
     benefits: [
       "Potent antibacterial and antifungal properties for acne & dandruff",
@@ -133,7 +133,7 @@ let PRODUCTS = [
     name: "Premium Raw Groundnut (Peanuts)",
     category: "seeds",
     tag: "Farm Fresh",
-    image: "https://images.unsplash.com/photo-1567894340315-735d7c361db0?auto=format&fit=crop&w=800&q=80",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUd_UhnFsUY9TU-qRLp4kmyTB-QWjbqGOtrU8UdFUXeA&s=10",
     description: "Hand-graded, plump, and naturally sun-dried peanuts directly from farms. Rich in oil content, sweet crunch, perfect for making homemade butter, snacks, or boiling.",
     benefits: [
       "High plant protein (25g per 100g) and healthy dietary fiber",
@@ -142,7 +142,7 @@ let PRODUCTS = [
       "Directly sourced from trusted local farming clusters"
     ],
     variants: [
-      { size: "500 g", price: 95, originalPrice: 115 },
+      { size: "500 g", price: 90, originalPrice: 115 },
       { size: "1 kg", price: 180, originalPrice: 220, isDefault: true },
       { size: "5 kg (Bag)", price: 850, originalPrice: 990 }
     ]
@@ -152,7 +152,7 @@ let PRODUCTS = [
     name: "Farm Fresh Natural Sesame Seeds",
     category: "seeds",
     tag: "Clean & Unpolished",
-    image: "https://images.unsplash.com/photo-1508737604135-49c377032e40?auto=format&fit=crop&w=800&q=80",
+    image: "https://i.pinimg.com/736x/79/df/ca/79dfcad1a6a973d26b91a049f3fe034b.jpg",
     description: "Double machine-cleaned, 100% stone-free white and natural sesame seeds (Ellu). Perfect for making traditional sweets like ellu urundai, tahini, and bakery garnish.",
     benefits: [
       "Exceptional natural source of plant calcium and iron",
@@ -161,8 +161,8 @@ let PRODUCTS = [
       "Stored in climate-controlled hygiene packaging"
     ],
     variants: [
-      { size: "250 g", price: 80, originalPrice: 95 },
-      { size: "500 g", price: 150, originalPrice: 180, isDefault: true },
+      { size: "250 g", price: 95, originalPrice: 110 },
+      { size: "500 g", price: 180, originalPrice: 220, isDefault: true },
       { size: "1 kg", price: 290, originalPrice: 340 }
     ]
   }
